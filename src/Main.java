@@ -12,7 +12,6 @@ public class Main {
 
         String mesajCitit = secureStorage.Read();
 
-        System.out.println("Mesaj original: " + mesajOriginal);
         System.out.println("Mesaj citit dupa compresie/criptare: " + mesajCitit);
         System.out.println("Continut brut din fisier: " + storage.Read());
     }
